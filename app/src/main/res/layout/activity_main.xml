@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ok"
+        android:layout_marginTop="50dp"
+        android:text="enter"
+        />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/miss_prem"
+        android:layout_marginTop="150dp"
+        android:text="missing"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/flashlightButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flashlight"
+        android:layout_marginTop="100dp"/>
+
+</RelativeLayout>
